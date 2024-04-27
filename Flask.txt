@@ -1,0 +1,16 @@
+---Flask---
+
+*criando ambiente virtual*
+
+python -m venv venv
+
+*verificando atividade*
+
+.\venv\Scripts\activate
+
+*instalando flask*
+
+pip install flask
+
+*debugger on*
+flask --app microblog run --debug
